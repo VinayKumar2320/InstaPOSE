@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { PoseLandmarks } from '../types';
+import { PoseLandmarks } from '/Users/vinaykumar/Documents/Documents/Vinay Data/NYU Masters/pose recomm/InstaPoseAI-main/src/types.ts';
 
 interface CameraViewProps {
   onCaptureFrame: (base64: string) => void;

@@ -1,5 +1,7 @@
 import React from 'react';
-import { AnalysisResult, PoseFeedback } from '../types';
+import { analyzeSceneAndSuggest } from "/Users/vinaykumar/Documents/Documents/Vinay Data/NYU Masters/pose recomm/InstaPoseAI-main/services/geminiService.ts";
+// 🚨 FIX APPLIED HERE: Added PoseFeedback to the import
+import { AnalysisResult, PoseFeedback } from "/Users/vinaykumar/Documents/Documents/Vinay Data/NYU Masters/pose recomm/InstaPoseAI-main/src/types.ts";
 import { LightBulbIcon, PhotoIcon, SparklesIcon, MapPinIcon, CheckCircleIcon, ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 
 interface AnalysisPanelProps {

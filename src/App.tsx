@@ -1,10 +1,11 @@
 
 import React, { useState, useRef, useCallback, useEffect } from 'react';
-import CameraView from './components/CameraView';
-import AnalysisPanel from './components/AnalysisPanel';
-import GalleryPanel from './components/GalleryPanel';
+import CameraView from "/Users/vinaykumar/Documents/Documents/Vinay Data/NYU Masters/pose recomm/InstaPoseAI-main/components/CameraView.tsx";
+import AnalysisPanel from "/Users/vinaykumar/Documents/Documents/Vinay Data/NYU Masters/pose recomm/InstaPoseAI-main/components/AnalysisPanel.tsx";
+import GalleryPanel from "/Users/vinaykumar/Documents/Documents/Vinay Data/NYU Masters/pose recomm/InstaPoseAI-main/components/GalleryPanel.tsx";
+
 import { AnalysisResult, PoseFeedback, Gender, PoseStyle, PoseLandmarks, GalleryImage } from './types';
-import { analyzeSceneAndSuggest, generatePoseReference, evaluatePoseMatch, extractPoseLandmarks } from './services/geminiService';
+import { analyzeSceneAndSuggest, generatePoseReference, evaluatePoseMatch, extractPoseLandmarks } from '../services/geminiService';
 import { CameraIcon, ArrowPathIcon, UserIcon, SparklesIcon, CheckBadgeIcon } from '@heroicons/react/24/solid';
 
 const App: React.FC = () => {

@@ -1,5 +1,5 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
-import { AnalysisResult, PoseFeedback, Gender, PoseStyle, PoseLandmarks } from "../types";
+import { AnalysisResult, PoseFeedback, Gender, PoseStyle, PoseLandmarks } from "../src/types";
 
 // FIXED: use the correct environment variable that Vite exposes
 const apiKey = import.meta.env.VITE_GEMINI_API_KEY;

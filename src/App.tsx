@@ -1,8 +1,10 @@
 
 import React, { useState, useRef, useCallback, useEffect } from 'react';
-import CameraView from "/Users/vinaykumar/Documents/Documents/Vinay Data/NYU Masters/pose recomm/InstaPoseAI-main/components/CameraView.tsx";
-import AnalysisPanel from "/Users/vinaykumar/Documents/Documents/Vinay Data/NYU Masters/pose recomm/InstaPoseAI-main/components/AnalysisPanel.tsx";
-import GalleryPanel from "/Users/vinaykumar/Documents/Documents/Vinay Data/NYU Masters/pose recomm/InstaPoseAI-main/components/GalleryPanel.tsx";
+import CameraView from '../components/CameraView.tsx';
+// OR, if you are using path aliases (less likely, but possible):
+// import CameraView from '@/components/CameraView.tsx'; 
+// (If you use path aliases, ensure they are configured in vite.config.ts)import AnalysisPanel from "/Users/vinaykumar/Documents/Documents/Vinay Data/NYU Masters/pose recomm/InstaPoseAI-main/components/AnalysisPanel.tsx";
+import GalleryPanel from "../components/GalleryPanel.tsx";
 
 import { AnalysisResult, PoseFeedback, Gender, PoseStyle, PoseLandmarks, GalleryImage } from './types';
 import { analyzeSceneAndSuggest, generatePoseReference, evaluatePoseMatch, extractPoseLandmarks } from '../services/geminiService';

@@ -1,0 +1,8 @@
+{
+  "name": "InstaPose AI",
+  "description": "Real-time AI pose suggestions and analysis for social media content creation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
